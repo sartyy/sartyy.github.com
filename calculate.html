@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Tsk 2 Js</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script type="text/javascript" src="calculate.js"></script>
+  </head>
+
+  <style>
+    .main-container {
+      display: inline-block;
+      padding: 15px;
+      border: 2px solid black;
+    }
+  </style>
+  <body>
+    <h1>Task-1</h1>
+    <div class="main-container">
+      <p>
+        1st Number
+        <input type="text" id="fNum" />
+      </p>
+      <p>
+        2nd Number
+        <input type="text" id="SNum" />
+      </p>
+      <input type="button" value="Multiply" onclick="multiplication()" />
+      <input type="button" value="Divide" onclick="divition()" />
+      <p>The result is:</p>
+      <p id="total"></p>
+    </div>
+    <div class="container-2">
+      <p>
+        How many items are you going to purchase?
+        <input type="text" id="itemNum" />
+      </p>
+      <input type="button" value="Purchase" onclick="deliver()" />
+      <h1 id="summary"></h1>
+      <p id="Item-summary"></p>
+      <p id="ship-handling"></p>
+      <p id="before-tax"></p>
+      <p id="estimated-tax"></p>
+      <h3 id="Total-order"></h3>
+    </div>
+  </body>
+</html>
